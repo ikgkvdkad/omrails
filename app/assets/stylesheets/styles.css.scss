@@ -1,0 +1,25 @@
+/* can change font here, mind change in variable name */
+/* $font-family-base: Oxygen;
+@import url(https://fonts.googleapis.com/css?family=Oxygen);*/
+
+/* $navbar-default-bg: black;
+$navbar-default-link-hover-bg: white;
+$navbar-default-brand-hover-bg: yellow;
+*/
+
+$btn-primary-bg: green;
+
+@import 'bootstrap';
+
+body {
+	padding-top: 60px;
+}
+
+.footer {
+
+	margin-top: 50px;
+	color: $gray-light;
+	a {
+		color: $gray;
+	}
+}
